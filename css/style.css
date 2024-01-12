@@ -80,6 +80,48 @@ nav li a{
 
 
 
+/* Main Section */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* Team Section */
+
+.team-container{
+    display: flex;
+    align-items: center;
+}
+
+.team-container-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.4rem;
+}
+.team-content{
+    padding: 0 60px 0 30px;
+}
+.team-title{
+    font-size: 2.5rem;
+}
+.quick-list{
+    color:  #727272;
+    font-size: 45px;
+    font-weight: 500;
+}
+.of-our{
+    color: #131313;
+    font-weight: 700;
+}
+.tex-feature{
+    color: #FF900E;
+    font-weight: 700;
+}
+
+
+
+
+
+
 
 
 
