@@ -153,6 +153,25 @@ main{
 
 
 
+/* Sponsors */
+.sponsors{
+    text-align: center;
+}
+
+.sponsor-img-container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    align-items: center;
+}
+.sponsor-img-container img{
+    width: 160px;
+}
+
+
+
+
 
 
 
@@ -192,7 +211,8 @@ main{
 
 
     nav, .team-container,
-    .fact-card-container{
+    .fact-card-container,
+    .sponsor-img-container{
         flex-direction: column;
     }
     .team-container-img{
@@ -219,6 +239,9 @@ main{
 
     .team-container{
         flex-direction: column-reverse;
+    }
+    .sponsor-img-container{
+        flex-direction: column;
     }
     
 }
